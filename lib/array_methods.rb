@@ -8,7 +8,6 @@ end
 
 def using_sort(array)
   array.sort
-  array.sort { |a,b| b <=> a}
 end
 
 def using_reverse(array)
